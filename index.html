@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Header  -->
+  <div class="cyber-background"></div>
+  <header>
+      <h1 class="neon-text name-animation" id="nameAnimation"> 
+        BADER ALMAZRUA </h1>
+      <p class="neon-text"> Cybersecurity | AI | Automation</p>
+  </header>
+<!-- Content -->
+
+<div class="container">
+  <div id="terminal">
+      <div id="command"> echo "Unleash cybersecurity, shield with encryption, guard the digital world."<span id="cursor"></span></div>
+  </div>
+
+  </div>
+
+<div class="container">
+
+  <div class="section journey fade-in">
+      <h2 class="neon-text">Work Journey</h2>
+      <ul>
+          <li><strong>Oct 2023 - Present : </strong>Cybersecurity Specialist at Confidential</li>
+          <li><strong>Sep 2023 - Oct 2023 : </strong>Web Developer and Artificial Intelligence at Netways Solutions</li>
+          <li><strong>Jul 2021 -  May 2022 : </strong> IOT Devices and Support on updating firemware at STC channel </li>
+      </ul>
+  </div>
+  <div class="section skills fade-in">
+      <h2 class="neon-text">Skills</h2>
+      <ul>
+          <li>HTML, CSS, JavaScript, React, Angular</li>
+          <li>Node.js, Express.js</li>
+          <li>Python, Django</li>
+          <li>Wireshark</li>
+          <li>AI, Promoting </li>
+      </ul>
+  </div>
+
+
+
+<!-- BOX -->
+<div class="section skills fade-in">
+<h2 class="neon-text">Completed Courses In</h2>
+<ul>
+  <li><strong>Artificial Intelligence :</strong>Tensorflow, Numpy, Panda</li>
+  <li><strong>Automation :</strong> Python, Selenium</li>
+  <li><strong>Pentest :</strong> Jr.Penetration testing</li>
+  <li><strong>Monitoring :</strong> SIEM Splunk, Elastic, IDS, Wireshark </li>
+</ul>
+</div>
+
+<div>
+
+<div class="section skills fade-in">
+<h2 class="neon-text">Encrypt The Message </h2>
+<div class="Encrypt">
+<ul>
+    <li>Click on Secert Message</li>
+<li><div class="encrypted-text neon" onclick="encryptText()">Secert Message</div></li>
+</ul>
+</div>
+</div>
+
+
+<div id="packet-dissector">
+<div class="packet-header"><strong>Packets Output</strong></div>
+<div class="packet-line">
+
+<div class="hex">45 00 00 54 00 00 40 00 40 06 7f 3c c0 a8 01 64 | E..T..@.@.....d</div>
+<div class="packet-line">
+  <div class="hex">c0 a8 01 01 08 00 27 96 00 00 00 01 00 00 00 00 | .....GE T /HTTP...</div>
+</div>
+<div class="packet-line">
+
+  <div class="hex">a0 02 fa f0 16 d0 00 00 02 04 05 b4 04 02 08 0a | ....Mal. php'....</div>
+  
+</div>
+<div class="packet-line">
+  
+  <div class="hex">00 2d 66 79 00 00 00 00 01 03 03 07 b4 04 02 08 | .-fy........</div>
+  
+</div>
+</div>
+</div>
+
+<div id="scene">
+  <div id="box">
+      <div class="face front">0</div>
+      <div class="face back">1</div>
+      <div class="face right">0</div>
+      <div class="face left">1</div>
+      <div class="face top">0</div>
+      <div class="face bottom">1</div>
+      <div class="lock"></div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="footer">
+  <a href="" class="neon">[</a>
+  <a href="https://www.linkedin.com/in/bader-almazrou-cybersecurity-specialist/" class="neon">LinkedIn</a>
+  <a href="" class="neon">GitHub</a>
+  <a href="" class="neon">]</a>
+</div>
+
+<!-- Chat box -->
+<div class="chatbot-container">
+    <div class="chatbot-toggle" id="chatbotToggle">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712100.png" alt="Bot Icon" class="bot-icon">
+    </div>
+  
+    <div class="chatbot-panel" id="chatbotPanel">
+      <div class="chatbot-header">
+        <h2>Chatbot</h2>
+      </div>
+      <div class="chat-cover">
+        <div class="chat-container">
+            <div id="chat-box"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+  
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
