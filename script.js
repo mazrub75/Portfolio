@@ -15,7 +15,7 @@ const typingIndicator = document.getElementById('typingIndicator');
 
 // console.log("test",process.env.API_TOKEN_KEY)
 
-const API_TOKEN = process.env.API_KEY; // ← Replace with your token
+const API_TOKEN = "KEY"; // ← Replace with your token
 // const API_TOKEN =  ""
 const MODEL = "zephyr-7b-beta"; // Default model
 
