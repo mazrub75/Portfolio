@@ -593,7 +593,7 @@ header p {
   100% { transform: rotate(0deg); opacity: 1; }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
 header{
   padding: 12% 8% 8.5% 10%
 }
