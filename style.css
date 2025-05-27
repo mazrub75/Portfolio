@@ -598,7 +598,43 @@ header{
   padding: 12% 8% 8.5% 10%
 }
 li {
-font-size: 11px;
+font-size: 20px;
+}
+.hex{
+font-size: 20px;
+padding: 5px
+}
+#terminal {
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 103%;
+  max-width: 83%;
+  padding: 27px;
+  border: 3px solid #0f0;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px #0f0;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+#packet-dissector{
+  font-size: 11px;
+}
+
+}
+
+
+
+@media screen and (max-width: 980px) {
+header{
+  padding: 12% 8% 8.5% 10%
+}
+li {
+font-size: 15px;
 }
 .hex{
 font-size: 8px;
