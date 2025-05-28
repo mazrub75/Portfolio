@@ -4,6 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   }
+
+ .wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
+
   
   body {
     font-family: 'Courier New', Courier, monospace;
@@ -593,6 +599,7 @@ header p {
 }
 
 @media screen and (max-width: 1500px) {
+
   header{
     padding: 12% 8% 8.5% 10%
   }
@@ -614,7 +621,7 @@ header p {
   #terminal {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top: 21%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 103%;
@@ -633,10 +640,12 @@ header p {
   }
   
   }
+  
 
 
 @media screen and (max-width: 980px) {
-header{
+ 
+  header{
   padding: 12% 8% 8.5% 10%
 }
 li {
@@ -653,7 +662,7 @@ padding: 5px
 #terminal {
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
-  top: 21%;
+  top: 13%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 103%;
@@ -669,6 +678,8 @@ padding: 5px
 
 #packet-dissector{
   font-size: 11px;
+}
+
 }
 
 }
