@@ -594,7 +594,7 @@ header p {
   100% { transform: rotate(0deg); opacity: 1; }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
 
   header{
     padding: 12% 8% 8.5% 10%
@@ -617,7 +617,7 @@ header p {
   #terminal {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top: 21%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 103%;
