@@ -617,7 +617,7 @@ header p {
   #terminal {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top: 15%;
+    top: 21%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 103%;
@@ -658,7 +658,7 @@ padding: 5px
 #terminal {
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
-  top: 13%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 103%;
