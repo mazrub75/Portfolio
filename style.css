@@ -647,6 +647,10 @@ font-size: 15px;
 font-size: 8px;
 padding: 5px
 }
+.container {
+  margin-bottom: 8%;
+  padding: 6%;
+}
 #terminal {
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
