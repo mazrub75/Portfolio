@@ -194,8 +194,8 @@
   }
   
   .chat-container {
-      padding: 31px;
-      width: 433px;
+      padding: 2%;
+      width: 100%;
       border-radius: 10px;
       overflow: hidden;
   }
