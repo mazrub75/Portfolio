@@ -302,12 +302,8 @@
 
 #terminal {
   font-family: 'Courier New', Courier, monospace;
-  position: absolute;
-  top: 51%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  max-width: 800px;
+  width: 94%;
+  max-width: 100%;
   padding: 20px;
   border: 3px solid #0f0;
   border-radius: 10px;
@@ -359,7 +355,7 @@ header p {
   text-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
 }
 .container {
-  margin-bottom: 8%;
+  margin-bottom: 0%;
   padding: 6%;
 }
 .section {
@@ -610,25 +606,20 @@ header p {
     font-size: 46px;
   }
   .container {
-    margin-bottom: 8%;
+    margin-bottom: 0%;
     padding: 3%;
 }
 
   #terminal {
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 103%;
-    max-width: 96%;
-    padding: 27px;
-    border: 3px solid #0f0;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 20px #0f0;
-    overflow: hidden;
-    font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 94%;
+  max-width: 100%;
+  padding: 20px;
+  border: 3px solid #0f0;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px #0f0;
+  overflow: hidden;
   }
   
   #packet-dissector{
@@ -652,24 +643,19 @@ font-size: 8px;
 padding: 5px
 }
 .container {
-  margin-bottom: 8%;
+  margin-bottom: 0%;
   padding: 6%;
 }
 #terminal {
   font-family: 'Courier New', Courier, monospace;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 103%;
-  max-width: 83%;
-  padding: 27px;
+  width: 94%;
+  max-width: 100%;
+  padding: 20px;
   border: 3px solid #0f0;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 20px #0f0;
   overflow: hidden;
-  font-size: 25px;
 }
 
 #packet-dissector{
