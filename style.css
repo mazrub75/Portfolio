@@ -301,8 +301,9 @@
 /* Cyber style */
 
 #terminal {
+  font-size: 25px;
   font-family: 'Courier New', Courier, monospace;
-  width: 94%;
+  width: 100%;
   max-width: 100%;
   padding: 20px;
   border: 3px solid #0f0;
@@ -611,8 +612,9 @@ header p {
 }
 
   #terminal {
+  font-size: 25px;
   font-family: 'Courier New', Courier, monospace;
-  width: 94%;
+  width: 100%;
   max-width: 100%;
   padding: 20px;
   border: 3px solid #0f0;
