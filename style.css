@@ -425,7 +425,6 @@ header p {
   align-items: center;
   justify-content: center;
   font-family: 'Share Tech Mono', monospace;
-  transform: rotateY(180deg);
   font-size: 2.2rem;
   padding: 20px;
   box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
