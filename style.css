@@ -267,6 +267,7 @@
       animation: typing 1.4s infinite;
   }
   strong {
+    margin: 8px;
     display: inline-block;
     padding: 8px 16px;
     font-family: 'Share Tech Mono', monospace;
