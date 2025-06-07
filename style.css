@@ -7,7 +7,7 @@
 
 .flip-card {
   width: 300px;
-  height: 200px;
+  height: 300px;
   perspective: 1000px;
   -webkit-perspective: 1000px; /* Safari */
 }
